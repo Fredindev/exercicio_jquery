@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Single Day', cursive;}
+
+body {
+    background-color:antiquewhite;
+    margin: 80px auto;
+    width: 90%;
+}
+
+.estrutura {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-transform: uppercase;
+    
+}
+
+input {
+    width: 300px;
+    padding: 8px;
+    margin-right: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button {
+    background-color: #2aa348;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #03681c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #bebbbb;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completado {
+    text-decoration: line-through
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: rgb(2, 196, 2);
+    color: #fff;    
+    font-weight: lighter;
+}
+
+#remove {
+    background-color: rgb(247, 49, 49);
+}
